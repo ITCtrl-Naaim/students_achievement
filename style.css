@@ -64,6 +64,37 @@ table tbody td:first-child::before {
   color: #fff;
 }
 
+.exp-444 {
+  margin: 15px 30px;
+  font-size: 18px;
+  position: relative;
+}
+
+.exp-444::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #444;
+  position: absolute;
+  right: -25px;
+}
+
+button.download {
+  background-color: #034a66;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
 /* ================================================================================================= */
 
 @media (max-width: 767px) {
