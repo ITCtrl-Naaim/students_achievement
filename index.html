@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html dir="rtl" lang="en">
   <head>
@@ -301,3 +302,170 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html dir="rtl" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/images.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <title>إنجاز السائيرن</title>
+    <script src="table2excel.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>الإنجاز الأسبوعي</h1>
+      <h3>التاريخ: <span>من 10/07/2023 الى 15/07/2023</span></h3>
+    </header>
+    <table>
+      <thead>
+        <tr>
+          <td>إسم الطالب</td>
+          <td>الصفخات المنجزة</td>
+          <td>آخر صفحة سمعت</td>
+          <td>عدد أيام الغياب</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>عبدالله الناصر</td>
+          <td>6</td>
+          <td>83</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>عبدالقادر الناصر</td>
+          <td>2</td>
+          <td>82</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>يمان الحلاق</td>
+          <td>1</td>
+          <td>121</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>طه كعيكاتي</td>
+          <td>0</td>
+          <td>101</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td>محمد دباس</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>مؤيد كشورة</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>عبدالرحمن قطان</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>عبدالرحمن الحمصي</td>
+          <td>5</td>
+          <td>61</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>أحمد ملبنجي</td>
+          <td>2</td>
+          <td>86</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>عمر قديمي</td>
+          <td>6</td>
+          <td>227</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>عمار فهد</td>
+          <td>3</td>
+          <td>75</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>حسن خولي</td>
+          <td>7</td>
+          <td>81</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td class="problem">حمزة السيد حسن</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>زاهر المصري</td>
+          <td>3</td>
+          <td>58</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td class="problem">براء زرابيلي</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>أسامة الفران</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>أويس العبدلله</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>وائل العاجي</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>حمزة العاجي</td>
+          <td>-</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <td>مجد السيد حسن</td>
+          <td>8</td>
+          <td>49</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>أنس عكيلة</td>
+          <td>8</td>
+          <td>29</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="download_pdf" class="download">Click To DOWNLOAD</button>
+    <div class="exp-444">= مسافر</div>
+    <script>
+      document
+        .getElementById("download_pdf")
+        .addEventListener("click", function () {
+          var table2excel = new Table2Excel();
+          table2excel.export(document.querySelectorAll("table"));
+        });
+    </script>
+  </body>
+</html>
+>>>>>>> dfa9ed58223fc41a7e17a5a684c5e7e6d58d14ac

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
   --travel: #109fff;
 }
@@ -120,3 +121,110 @@ button.download {
     position: relative;
   }
 }
+=======
+header {
+  position: relative;
+}
+
+header h1 {
+  text-align: center;
+}
+
+header h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+header h3 span {
+  font-weight: lighter;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  counter-increment: students-counter;
+}
+
+table thead {
+  font-size: 18px;
+  text-align: center;
+}
+
+table thead td {
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+table tbody td {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+table tbody tr td:not(:first-child) {
+  text-align: center;
+}
+
+table td:first-child {
+  width: 15%;
+}
+
+table tbody {
+  counter-reset: students-counter;
+}
+
+table tbody td:first-child::before {
+  content: counter(students-counter) ". ";
+  counter-increment: students-counter;
+}
+
+.problem {
+  background-color: #444;
+  color: #fff;
+}
+
+.exp-444 {
+  margin: 15px 30px;
+  font-size: 18px;
+  position: relative;
+}
+
+.exp-444::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: #444;
+  position: absolute;
+  right: -25px;
+}
+
+button.download {
+  background-color: #034a66;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  color: #fff;
+  margin: 10px;
+  position: absolute;
+  left: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* ================================================================================================= */
+
+@media (max-width: 767px) {
+  header h3 {
+    margin: 50px auto;
+    position: relative;
+  }
+}
+>>>>>>> dfa9ed58223fc41a7e17a5a684c5e7e6d58d14ac
