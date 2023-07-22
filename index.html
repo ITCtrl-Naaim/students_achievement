@@ -107,7 +107,7 @@
           <td>58</td>
           <td>1</td>
         </tr>
-        <tr>
+        <tr class="problem">
           <td>أسامة الفران</td>
           <td>-</td>
           <td>-</td>
@@ -147,12 +147,12 @@
     </table>
     <button id="download_pdf" class="download">Click To Download</button>
     <div class="exp-444"> : مسافر</div>
-    <header>
-      <h1>الإنجاز الأسبوعي</h1>
-      <h3>التاريخ: <span>من 10/07/2023 الى 15/07/2023</span></h3>
-    </header>
     <table class="table1">
       <thead>
+        <header>
+          <h1>الإنجاز الأسبوعي</h1>
+          <h3>التاريخ: <span>من 10/07/2023 الى 15/07/2023</span></h3>
+        </header>
         <tr>
           <td>إسم الطالب</td>
           <td>الصفخات المنجزة</td>
@@ -233,8 +233,8 @@
           <td>81</td>
           <td>0</td>
         </tr>
-        <tr>
-          <td class="problem">حمزة السيد حسن</td>
+        <tr class="problem">
+          <td>حمزة السيد حسن</td>
           <td>-</td>
           <td>-</td>
           <td>-</td>
@@ -284,7 +284,7 @@
       </tbody>
     </table>
     <button id="download_pdf1" class="download">Click To Download</button>
-    <!-- <div class="exp-444"> : مسافر</div> -->
+    <div class="exp-444"> : مسافر</div>
     <script>
       document
         .getElementById("download_pdf")
@@ -296,7 +296,7 @@
         .getElementById("download_pdf1")
         .addEventListener("click", function () {
           var table2excel = new Table2Excel();
-          table2excel.export(document.querySelectorAll("table1"));
+          table2excel.export(document.querySelectorAll(".table1"));
         });
     </script>
   </body>
